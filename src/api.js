@@ -1,25 +1,25 @@
 import axios from "axios";
 
 export function Postregister(data){
-    return axios.post(`http://localhost:5000/register`,data)
+    return axios.post(`https://urlshortmansoor.herokuapp.com//register`,data)
 }
 
 export function Postlogin(data){
-    return axios.post(`http://localhost:5000/login`,data)
+    return axios.post(`https://urlshortmansoor.herokuapp.com//login`,data)
 }
 
 export function Postlongurl(data){
-    return axios.post(`http://localhost:5000/urlshort`,data)
+    return axios.post(`https://urlshortmansoor.herokuapp.com//urlshort`,data)
 }
 
 export function Getlongurl(){
-    return axios.get(`http://localhost:5000/urlshort`)
+    return axios.get(`https://urlshortmansoor.herokuapp.com//urlshort`)
 }
 
 export function GetlongurlbyEmail(email){
-    return axios.get(`http://localhost:5000/userurl/${email}`)
+    return axios.get(`https://urlshortmansoor.herokuapp.com//userurl/${email}`)
 }
 
 export function Getlongurlbyid(id){
-    return axios.get(`http://localhost:5000/${id}`)
+    return axios.get(`https://urlshortmansoor.herokuapp.com//${id}`)
 }
