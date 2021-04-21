@@ -17,7 +17,6 @@ function Result(p){
               <thead>
                 <tr>
                   <th>Shorturl</th>
-                
                 </tr>
               </thead>
                 <tbody>
@@ -26,8 +25,8 @@ function Result(p){
                            return (
                            <>   
                             <tr>
-                            <a href={`http://localhost:5000/${user.shorturl}`} target="_blank">
-                            http://localhost:5000/${user.shorturl}
+                            <a href={`https://urlshortmansoor.herokuapp.com/${user.shorturl}`} target="_blank">
+                            https://urlshortmansoor.herokuapp.com/${user.shorturl}
                             </a>
                             </tr>
                             <tr>
